@@ -2,9 +2,9 @@
     <img src="sprytile-logo.png?raw=true" height="100px"/>
     <h1 align="center">ReSprytile</h1>
     <h2 align="center">Fork of Sprytile Painter</h2>
-    <h3 align="center">Updated for Blender 3.6</h3>
+    <h3 align="center">Updated for Blender 4.0.2</h3>
     <h4 align="center">
-        A <img src="https://download.blender.org/institute/logos/blender-socket.png" height="20px"/> addon for creating tile based low spec 3D scenes. (Unofficial port for blender 3.6)
+        A <img src="https://download.blender.org/institute/logos/blender-socket.png" height="20px"/> addon for creating tile based low spec 3D scenes. (Unofficial port for blender 4.0.2)
     </h4>
   <br>
 </p>

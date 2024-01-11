@@ -1865,6 +1865,14 @@ class UTIL_OP_SprytileResetData(bpy.types.Operator):
         context.scene.sprytile_data.auto_reload = False
         return {'FINISHED'}
 
+class UTIL_OP_SprytileOpenWindow(bpy.types.Operator):
+    bl_idname = "sprytile.open_window_sprytile"
+    bl_label = "Open Window"
+    bl_description = "Open Tileset Window"
+
+    def invoke(self, context, event):
+        context.scene.sprytile_data.open_new_window = not context.scene.sprytile_data.open_new_window
+        return {'FINISHED'}
 
 class UTIL_OP_SprytileFlipXToggle(bpy.types.Operator):
     bl_idname = "sprytile.flip_x_toggle"
@@ -2108,10 +2116,11 @@ classes = (
     UTIL_OP_SprytileSetNormal,
     UTIL_OP_SprytileFlipXToggle,
     UTIL_OP_SprytileFlipYToggle,
+    UTIL_OP_SprytileOpenWindow,
     VIEW3D_MT_SprytileObjectDropDown,
     VIEW3D_PT_SprytileObjectPanel,
     VIEW3D_MT_SprytileWorkDropDown,
-    #VIEW3D_PT_SprytileLayerPanel,
+    VIEW3D_PT_SprytileLayerPanel,
     VIEW3D_PT_SprytileWorkflowPanel
 )
 

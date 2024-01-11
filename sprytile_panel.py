@@ -280,6 +280,7 @@ class VIEW3D_PT_SprytilePanel(bpy.types.Panel):
 classes = (
     VIEW3D_PT_SprytilePanel,
     VIEW3D_UL_SprytileMaterialGridList,
+
     VIEW3D_MT_SprytileGridDropDown,
 )
 
@@ -287,11 +288,11 @@ classes = (
 def register():
     for cl in classes:
         bpy.utils.register_class(cl)
-
+    #bpy.types.Scene.my_bool_property = bpy.props.BoolProperty(default=False)
 
 def unregister():
     for cl in classes:
         bpy.utils.unregister_class(cl)
-
+    #del bpy.types.Scene.my_bool_property
 if __name__ == '__main__':
     register()

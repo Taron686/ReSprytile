@@ -1074,7 +1074,7 @@ def register(bl_info):
     # The register line items for all operators/panels
     # If using bpy.utils.register_module(__name__) to register elsewhere
     # in the addon, delete these lines (also from unregister)
-    bpy.utils.register_class(addon_updater_install_popup)
+    #bpy.utils.register_class(addon_updater_install_popup)
     bpy.utils.register_class(addon_updater_check_now)
     bpy.utils.register_class(addon_updater_update_now)
     bpy.utils.register_class(addon_updater_update_target)
@@ -1091,7 +1091,7 @@ def register(bl_info):
 
 
 def unregister():
-    bpy.utils.unregister_class(addon_updater_install_popup)
+    #bpy.utils.unregister_class(addon_updater_install_popup)
     bpy.utils.unregister_class(addon_updater_check_now)
     bpy.utils.unregister_class(addon_updater_update_now)
     bpy.utils.unregister_class(addon_updater_update_target)

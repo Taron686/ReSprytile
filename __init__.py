@@ -684,7 +684,7 @@ class PROP_OP_SprytilePropsSetup(bpy.types.Operator):
         if sprytile_gui.system_info['is_apple_silicon']:
             bpy.types.Scene.sprytile_ui = bpy.props.PointerProperty(type=sprytile_gui.spryTile_OS_Apple.SprytileGuiData)
         else:
-            bpy.types.Scene.sprytile_ui = bpy.props.PointerProperty(type=sprytile_gui.spryTile_OS_EverthingElse.SprytileGuiData)
+            bpy.types.Scene.sprytile_ui = bpy.props.PointerProperty(type=sprytile_gui.spryTile_OS_EverythingElse.SprytileGuiData)
 
         bpy.types.Object.sprytile_gridid = IntProperty(
             name="Grid ID",

@@ -15,10 +15,6 @@
 * UV painting: Create your mesh with other Blender tools, then quickly UV map them to your tiles. Spend less time in the UV editor.
 * Pixel grid tools: Keep your mesh aligned to the grid with pixel translation, move vertices around with confidence.
 
-### Demo:
-
-![Timelapse](https://img.itch.io/aW1hZ2UvOTg5NjYvNTE3NTczLmdpZg==/250x600/mDFwN0.gif)
-
 ### Download:
 
 Download from [releases](https://github.com/ionthedev/ReSprytile/releases).
@@ -26,7 +22,7 @@ Download from [releases](https://github.com/ionthedev/ReSprytile/releases).
 ### Getting Started:
 
 * [Sprytile Basics Tutorial](http://docs.sprytile.xyz/quick-start/) ([video](https://youtu.be/-ezYZgMp-R0)) 
-* Blender 2.8 specific [tips](https://itch.io/post/1034106)
+* Blender 4.0.2 specific [tips](https://itch.io/post/1034106)
 
 ### Community:
 

@@ -29,8 +29,8 @@ if system_info['is_apple_silicon']:
 
 else:
     print("Unknown system architecture.")
-    import spryTile_OS_EverthingElse
-    classes = (spryTile_OS_EverthingElse)
+    import spryTile_OS_EverythingElse
+    classes = (spryTile_OS_EverythingElse)
 
 classe = classes
 def register():
